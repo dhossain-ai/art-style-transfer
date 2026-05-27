@@ -1,5 +1,7 @@
-echo "__pycache__/
+__pycache__/
 *.pyc
 *.pth
 .env
-images/output/*" > .gitignore
+images/output/*
+images/content/*
+images/style/*
