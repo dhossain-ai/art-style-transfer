@@ -26,7 +26,7 @@ STYLE_IMAGES = {
 OUTPUT_DIR = os.path.join(BASE_DIR, "images", "output")
 
 # ── Transfer settings ────────────────────────────────
-NUM_STEPS        = 300
+NUM_STEPS        = 600
 CONTENT_WEIGHT   = 1
-STYLE_WEIGHT     = 1000000
-LEARNING_RATE    = 0.003
+STYLE_WEIGHT     = 50000000
+LEARNING_RATE    = 0.01
