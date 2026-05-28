@@ -1,2 +1,5 @@
-# Auto detect text files and perform LF normalization
+cd ..
+git add .
+git commit -m "Fix: progress_callback in style_transfer and LAB color space in classical"
+git push# Auto detect text files and perform LF normalization
 * text=auto
